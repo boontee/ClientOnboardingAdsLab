@@ -8,7 +8,7 @@
 # ClientInformation
 ClientInformation#concept.documentation = 
 ClientInformation#concept.label = Client Information
-ClientInformation.ClientInformation(java.lang.Long,java.lang.Long,boolean,java.lang.Long)#phrase.navigation = a new {Client Information} where {0, Annual Revenue} {1, Company Age} {2, Defaulted Payment} {3, Number of Employees}
+ClientInformation.ClientInformation(long,long,boolean,long)#phrase.navigation = a new {Client Information} where {0, Annual Revenue} {1, Company Age} {2, Defaulted Payment} {3, Number of Employees}
 ClientInformation.annualRevenue#phrase.action = set the Annual Revenue of {this} to {Annual Revenue}
 ClientInformation.annualRevenue#phrase.addition_setter = add {Annual Revenue} to the Annual Revenue of {this}
 ClientInformation.annualRevenue#phrase.navigation = {Annual Revenue} of {this}
@@ -99,7 +99,7 @@ Service.warehouseInsurance#instance.label = Insurance: Warehouse Insurance
 
 # ServiceInformation
 ServiceInformation#concept.label = Service Information
-ServiceInformation.ServiceInformation(java.util.List,java.lang.Long)#phrase.navigation = a new {Service Information} where {0, Extended services} {1, Services Fee}
+ServiceInformation.ServiceInformation(java.util.List,long)#phrase.navigation = a new {Service Information} where {0, Extended services} {1, Services Fee}
 ServiceInformation.addTo_extendedServices(Service)#phrase.action = add {0} to the Extended services of {this}
 ServiceInformation.clear_extendedServices()#phrase.action = clear the Extended services of {this}
 ServiceInformation.extendedServices#phrase.action = set the Extended services of {this} to {Extended services}
